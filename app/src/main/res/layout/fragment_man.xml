@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".manFragment">
+
+    <TextView
+        android:text="@string/free"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="650dp"
+        android:background="@color/white"
+        android:layout_marginTop="250dp"
+        />
+
+    <TextView
+        android:id="@+id/time"
+        android:textColor="@color/black"
+        android:layout_width="200dp"
+        android:layout_height="80dp"
+        android:textSize="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_gravity="right" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:background="@color/white"
+        android:layout_marginRight="80dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="109dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/white"
+        tools:ignore="RtlHardcoded" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="109dp"
+        android:layout_height="135dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginRight="80dp"
+        android:background="@color/white"
+        tools:ignore="RtlHardcoded" />
+    <TextView
+        android:id="@+id/book1"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="350dp"
+        android:layout_marginStart="150dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/book2"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:textColor="@color/black"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="150dp"
+        android:background="@color/white"/>
+
+    <TextView
+        android:id="@+id/book3"
+        android:textColor="@color/black"
+        android:layout_width="200dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="650dp"
+        android:layout_marginStart="150dp"
+        android:background="@color/white"/>
+
+</FrameLayout>
